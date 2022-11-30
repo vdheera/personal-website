@@ -1,3 +1,3 @@
 # Personal Website
 
-[www.dheera.xys](https://www.dheera.xyz)
+[www.dheera.xyz](https://www.dheera.xyz)
