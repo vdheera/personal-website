@@ -6,8 +6,8 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Dheera Vuppala',
-    site_url: 'https://dheera.co',
-    feed_url: 'https://dheera.co/feed.xml'
+    site_url: 'https://dheera.xyz',
+    feed_url: 'https://dheera.xyz/feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
@@ -24,9 +24,7 @@ async function generate() {
       feed.item({
         title: frontmatter.data.title,
         url: '/posts/' + name.replace(/\.mdx?/, ''),
-        date: frontmatter.data.date,
         description: frontmatter.data.description,
-        categories: frontmatter.data.tag.split(', '),
         author: frontmatter.data.author
       })
     })
