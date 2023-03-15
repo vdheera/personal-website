@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: 'Dheera\'s Personal Website',
       description: 'my little corner of the internet.',
       image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+        'https://ibb.co/HKMkTHZ'
     }
 
     return (
