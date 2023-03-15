@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: 'Dheera\'s Personal Website',
       description: 'my little corner of the internet.',
       image:
-        'https://ibb.co/HKMkTHZ'
+        'https://i.ibb.co/HKMkTHZ/Website-Card-Preview-Image.png'
     }
 
     return (
